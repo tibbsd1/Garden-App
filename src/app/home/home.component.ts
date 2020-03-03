@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 
 @Component({
@@ -9,7 +9,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 })
 export class HomeComponent implements OnInit {
 
-public isMenuCollapsed = true;
+// public isMenuCollapsed = true;
   constructor() { }
 
   ngOnInit(): void {
