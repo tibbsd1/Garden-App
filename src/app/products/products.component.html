@@ -1,1 +1,23 @@
-<p>products works!</p>
+<!-- products.component.html -->
+<div class="page">
+  <div class="row d-flex justify-content-center">
+    <div class="col-sm-8">
+      <div *ngFor="let plant of plants" class="card-group">
+        <div class="card row-sm-4">
+          
+          <!-- For img: I tried adding a jpeg to the assets folder and copy the path into 'src' below-->
+            <img class="card-img-top" src="" alt="Plant Image" />
+          <div class="card-body">
+            <h5 class="card-title">{{ plant.product_name }}</h5>
+            <p class="card-text">Description:{{ plant.product_description }}</p>
+          </div>
+          <div class="card-footer">
+            <p class="text-muted" id="price">
+              Price: ${{ plant.product_price }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
