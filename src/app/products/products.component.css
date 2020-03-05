@@ -1,11 +1,24 @@
-/* products.component.css */
 
-.page{
-    background-color:#d7fffd;
+.background {
+  background: url(../../assets/img/top-view-soil_23-2148175893.jpg) no-repeat;
+
+  /* -webkit-box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75); */
 }
 
-.card-group{
-    margin-top: 20px;
-    margin-block-end: 20px;
-    
+h2,
+p {
+  color: #216353;
+  text-shadow: 2px 2px 9px #cecece;
+}
+
+/* .card-group {
+  background: url(../../assets/img/top-view-soil_23-2148175893.jpg) no-repeat;
+} */
+
+footer {
+  background: #216353;
+  height: 6rem;
+  margin-top: 3rem;
 }

@@ -9,11 +9,13 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ProductsComponent } from './products/products.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import {HttpClientModule} from "@angular/common/http"
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+
     ContactComponent,
     AboutComponent,
     ProductsComponent,
@@ -28,4 +30,4 @@ import { NavigationComponent } from './navigation/navigation.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
