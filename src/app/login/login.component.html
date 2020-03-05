@@ -1,0 +1,20 @@
+<div class='login'>
+    <h1>Login</h1>
+    <form *ngIf='!loggedIn'>
+      <label>E-mail:
+          <br>
+        <input #email />
+      </label>
+      <br/>
+      <label>Password:
+          <br>
+        <input type='password' #password/>
+      </label>
+      <br/>
+      <button (click)='login(email.value, password.value);email.value="";password.value=""'>Login</button>
+    </form>
+    <div *ngIf='loggedIn'>
+      <p>Logged in as admin</p>
+      <button (click)='logout()'>Logout</button>
+    </div>
+</div>
