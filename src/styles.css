@@ -1,6 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
-.entire-page{
-    background-color: #d7fffd;
-    height: 100vh;
-    
+html,
+body {
+  background-color: #d7fffd;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.background {
+  background: url(./assets/img/top-view-soil_23-2148175893.jpg) no-repeat;
+
+  /* -webkit-box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75); */
 }
