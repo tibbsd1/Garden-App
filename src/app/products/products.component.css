@@ -1,5 +1,5 @@
 .background {
-  background: url(../../assets/img/top-view-soil_23-2148175893.jpg) no-repeat;
+  background: url("../../assets/img/top-view-soil_23-2148175893.jpg") no-repeat;
 
   /* -webkit-box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -4px -6px 20px -12px rgba(0, 0, 0, 0.75);
