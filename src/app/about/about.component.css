@@ -1,0 +1,43 @@
+.all{
+  background-color: #D7FFFD;
+  
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding: 60px;
+    
+}
+
+.container{
+    padding: 80px;
+    text-align: center;
+    /* background-color: #D7FFFD */
+}
+
+.green{
+    background-image: url(./images/green.jpg);
+}
+
+.col-sm-4{
+    text-align: left;
+    animation: bounceIn 2s;
+}
+
+
+    
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    0% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
