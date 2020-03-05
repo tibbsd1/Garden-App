@@ -9,15 +9,22 @@ import { ContactComponent } from "./contact/contact.component";
 import { AboutComponent } from "./about/about.component";
 // import { ProductsComponent } from './products/products.component';
 
+import { ProductsComponent } from "./products/products.component";
+import { HttpClientModule } from "@angular/common/http";
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+
     ContactComponent,
     AboutComponent
     // ProductsComponent
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
+    AboutComponent,
+    ProductsComponent
+  ],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent]
 })

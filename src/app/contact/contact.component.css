@@ -1,0 +1,70 @@
+.contact-body {
+  background-color: #d7fffd;
+  /* background: #4285f4; */
+  /* position: static; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 40%;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.contact {
+  width: 35rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  /* margin-top: 30px; */
+  padding: 20px;
+  -webkit-box-shadow: 4px -2px 31px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px -2px 31px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px -2px 31px -13px rgba(0, 0, 0, 0.75);
+}
+
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #216353;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: #75daad;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+footer {
+  background: #216353;
+  height: 6rem;
+  margin-top: 3rem;
+}
+
+/* Media Query */
