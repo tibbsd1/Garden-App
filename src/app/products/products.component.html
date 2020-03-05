@@ -1,1 +1,44 @@
-<p>products works!</p>
+<!-- products.component.html -->
+
+<h2 class="text-center">Our Products</h2>
+<p class="text-center">
+  Your garden will never be the same, providing the very best for the modest
+  hobbyists to absolute enthusiasts, our selection can't be beat. Since 1966.
+</p>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="d-flex  flex-wrap justify-content-center bg-secondary mb-3">
+      <div *ngFor="let plant of plants" class="background card-group">
+        <div class="card text-center mx-3 mt-3" style="width: 18rem;">
+          <!-- For img: I tried adding a jpeg to the assets folder and copy the path into 'src' below-->
+          <img
+            class="card-img-top"
+            src="../../assets/img/hrt_plants_3.jpg"
+            alt="Plant Image"
+          />
+
+          <div class="card-body">
+            <h5 class="card-title">{{ plant.product_name }}</h5>
+            <p class="card-text">Description:{{ plant.product_description }}</p>
+          </div>
+          <div class="card-footer">
+            <p class="text-muted" id="price">
+              Price: ${{ plant.product_price }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="page-footer text-white font-small">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    © 2020 Copyright:
+    <p>Plants R Us</p>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
